@@ -1,0 +1,50 @@
+name: assignment01
+version: "1.0.0"
+author: Rahul Gangwar <Rahul.a@surya-soft.com>
+about: Implementation of assignment01
+args:
+    - employee_data_file:
+        short: e
+        required: true
+        long: emp-data-file-path
+        takes_value: true
+        help: Path to the file having details about employee
+    - department_data_file:
+        short: d
+        required: true
+        long: dept-data-file-path
+        takes_value: true
+        help: Path to the file having details about deparments
+    - salary_data_file:
+        short: s
+        required: true
+        long: salary-data-file-path
+        takes_value: true
+        help: Path to the file having details about salary
+    - leave_data_file:
+        short: l
+        required: true
+        long: leave-data-file-path
+        takes_value: true
+        help: Path to the file having details about leave
+    - output_file:
+        short: o
+        required: true
+        long: output-file-path
+        takes_value: true
+        help: A file having the outputs
+    - department_sheet:
+        long: department-sheet-name
+        takes_value: true
+        default_value: Sheet1
+        help: Name of sheet in the file having the department details
+    - salary_sheet:
+        long: salary-sheet-name
+        takes_value: true
+        default_value: Sheet1
+        help: name of sheet in the file having the salary details
+    - leave_sheet:
+        long: leave-sheet-name
+        takes_value: true
+        default_value: Sheet1
+        help: name of sheet in the file having the leave details

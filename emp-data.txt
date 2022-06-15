@@ -1,0 +1,7 @@
+emp_id|emp_name|dept_id|mobile|email
+1|Ajay|1|9999999999|ajay@gmail.com
+2|Vijay|3|9888888888|vijay@gmail.com
+3|Ram|2|9777777777|ram@gmail.com
+4|Shyam|4|9666666666|shyam@gmail.com
+5|Vishal|2|9555555555|vishal@gmail.com
+6|Yash|1|9444444444|yash@gmail.com
